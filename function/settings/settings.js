@@ -36,7 +36,7 @@ global.media = {
  rulesBot : 'https://telegra.ph/file/7cd8985216ffd3c376238.jpg',
  thumbnail : 'https://files.catbox.moe/hnbuh3.jpg',
  thumb : 'https://files.catbox.moe/hnbuh3.jpg',
- logo : 'https://o.uguu.se/zCwlDuWz.jpg',
+ logo : 'https://files.catbox.moe/hnbuh3.jpg',
  unReg : 'https://telegra.ph/file/ef02d1fdd59082d05f08d.jpg',
  registrasi : 'https://files.catbox.moe/hnbuh3.jpg',
  confess : 'https://telegra.ph/file/bfef7e33bc60dd2608ac6.jpg',
