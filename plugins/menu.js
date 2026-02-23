@@ -68,7 +68,7 @@ let handler = async (m, { conn, usedPrefix, command, args }) => {
             highlight_label: "الائحة",
             rows: [...isiMenu]
         },
-        /*{
+        {
             title: 'معلومات عن البوت',
             highlight_label: "معلومة",
             rows: [
@@ -77,7 +77,7 @@ let handler = async (m, { conn, usedPrefix, command, args }) => {
                     title: "معلومات حول سكريبت البوت",
                     description: "",
                     id: ".sc",
-                },*/
+                },
             {
                     header: "Info Owner",
                     title: "معلومات عن صاحب البوت",
