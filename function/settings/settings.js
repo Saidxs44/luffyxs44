@@ -17,13 +17,13 @@ global.info = {
  nomerbot : '201128400847',
  pairingNumber : '201128400847',
  figlet: 'marybot', // create a start console display
- nomorwa : '201128400847',
+ nomorwa : '201115068240',
  nameown : 'luffy',
- nomerown : '201128400847',
+ nomerown : '201115068240',
  packname : 'ون بيس عمك ',
  author : 'mary bot',
  namebot : '乂 mary bot',
- wm : 'SILANA LITE.',
+ wm : 'mary bot.',
  stickpack : 'Whatsapp',
  stickauth : 'mary bot',
  jid: '@s.whatsapp.net'
@@ -34,11 +34,11 @@ global.media = {
  ppKosong : 'https://i.ibb.co/3Fh9V6p/avatar-contact.png',
  didyou : 'https://telegra.ph/file/e40219cc8d472025f18b6.jpg',
  rulesBot : 'https://telegra.ph/file/7cd8985216ffd3c376238.jpg',
- thumbnail : 'https://files.catbox.moe/hnbuh3.jpg',
- thumb : 'https://files.catbox.moe/hnbuh3.jpg',
+ thumbnail : 'https://o.uguu.se/zCwlDuWz.jpg',
+ thumb : 'https://o.uguu.se/VWAwAgoc.jpg',
  logo : 'https://o.uguu.se/VWAwAgoc.jpg',
  unReg : 'https://telegra.ph/file/ef02d1fdd59082d05f08d.jpg',
- registrasi : 'https://files.catbox.moe/hnbuh3.jpg',
+ registrasi : 'https://o.uguu.se/zCwlDuWz.jpg',
  confess : 'https://telegra.ph/file/bfef7e33bc60dd2608ac6.jpg',
  access : 'https://telegra.ph/file/5c35d4a180b9074a9f11b.jpg',
  tqto : 'https://telegra.ph/file/221aba241e6ededad0fd5.jpg',
@@ -65,7 +65,7 @@ global.payment = {
 // Info Wait
 global.msg = {
  wait: '⏱️ *يرجى التحلي بالصبر*\n\> نحاول تلبية طلبكم ...',
- eror: '🤖 *Information Bot*\n\> Sorry for the inconvenience in using *Silana Ai*. There was an error in the system while executing the command.'
+ eror: '🤖 *Information Bot*\n\> Sorry for the inconvenience in using *mary bot*. There was an error in the system while executing the command.'
 }
  
 // api_id web suntik
