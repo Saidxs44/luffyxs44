@@ -14,8 +14,8 @@ global.setting = {
  }
 
 global.info = {
- nomerbot : '201115068240',
- pairingNumber : '201115068240',
+ nomerbot : '201128400847',
+ pairingNumber : '201128400847',
  figlet: 'marybot', // create a start console display
  nomorwa : '201128400847',
  nameown : 'luffy',
