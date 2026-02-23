@@ -9,17 +9,17 @@ handler.all = async function (m) {
   let name = await conn.getName(m.sender);
   let pp =
     "https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg";
-  let fotonyu = "https://files.catbox.moe/hnbuh3.jpg";
-  let logo = "https://files.catbox.moe/hnbuh3.jpg"; // define logo aquí
-  let namebot = "SILANA LITE AI";
-  let sig = "https://instagram.com/noureddine_ouafy";
+  let fotonyu = "https://api.deline.web.id/0p64MFb9t0.jpg";
+  let logo = "https://api.deline.web.id/0p64MFb9t0.jpg"; // define logo aquí
+  let namebot = "mary bot";
+  let sig = "https://instagram.com/luffyxs44";
 
   try {
     // pp = await this.profilePictureUrl(m.sender, "image");
   } catch (e) {
     console.error(e);
   } finally {
-    global.emror = "https://files.catbox.moe/hnbuh3.jpg";
+    global.emror = "https://api.deline.web.id/0p64MFb9t0.jpg";
 
     global.doc = pickRandom([
       "application/vnd.ms-excel",
