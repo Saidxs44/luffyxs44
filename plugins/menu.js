@@ -68,7 +68,7 @@ let handler = async (m, { conn, usedPrefix, command, args }) => {
             highlight_label: "الائحة",
             rows: [...isiMenu]
         },
-        {
+        /*{
             title: 'معلومات عن البوت',
             highlight_label: "معلومة",
             rows: [
@@ -77,7 +77,7 @@ let handler = async (m, { conn, usedPrefix, command, args }) => {
                     title: "معلومات حول سكريبت البوت",
                     description: "",
                     id: ".sc",
-                },
+                },*/
             {
                     header: "Info Owner",
                     title: "معلومات عن صاحب البوت",
@@ -123,7 +123,7 @@ let handler = async (m, { conn, usedPrefix, command, args }) => {
    let tUser = Object.keys(db.data.users).length;
    let userReg = Object.values(global.db.data.users).filter(user => user.registered == true).length
    
-let headers = `إعتبرني : رفيقتك ، أستاذتك ،عزيزتك ،التي ستجدها قربك في كل يوم لأجعل لك من نجمة ستة و من استخدام تطبيق الواتساب طعما آخر 🙂‍↕️🧠🗣️\n\n`
+let headers = `منور يابرو\n\n`
 
   if (cmd === 'list') {
     const daftarTag = Object.keys(tagCount)
@@ -203,7 +203,7 @@ conn.sendMessage(m.chat, {
           }, {quoted: m});
           } else if (_menu.button) {
           
- conn.sendListImageButton(m.chat, `${headers}`, datas, 'عَنْ أَبِي هُرَيْرَةَ رضي الله تعالى عنه: أَنَّ رَسُولَ اللَّهِ ﷺ قَالَ: إِذَا مَاتَ ابنُ آدم انْقَطَعَ عَنْهُ عَمَلُهُ إِلَّا مِنْ ثَلَاثٍ: صَدَقَةٍ جَارِيَةٍ، أو عِلْمٍ يُنْتَفَعُ بِهِ، أَوْ وَلَدٍ صَالِحٍ يَدْعُو لَهُ', thumbnail)
+ conn.sendListImageButton(m.chat, `${headers}`, datas, 'ون بيس عمك', thumbnail)
           }
   } else if (tagCount[cmd]) {
     const daftarHelp = tagHelpMapping[cmd].map((helpItem, index) => {
@@ -350,7 +350,7 @@ conn.sendMessage(m.chat, {
             },
           }, {quoted: m});
           } else if (_menu.button) {
-          conn.sendListImageButton(m.chat, `IM SILANA LITE AI\n${all}`, datas, 'instagram.com/noureddine_ouafy', thumbnail)
+          conn.sendListImageButton(m.chat, `IM mary bot\n${all}`, datas, 'instagram.com/noureddine_ouafy', thumbnail)
           }
   } else {
   await conn.reply(m.chat, `"'${cmd}' could not be found. Use commands '${command} list' atau '${command} all' to see the available menu.`,m);
@@ -367,4 +367,4 @@ function clockString(ms) {
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
-}
+                                     }
