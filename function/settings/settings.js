@@ -31,14 +31,14 @@ global.info = {
 
 // Thumbnail 
 global.media = {
- ppKosong : 'https://i.ibb.co/3Fh9V6p/avatar-contact.png',
+ ppKosong : 'https://api.deline.web.id/0p64MFb9t0.jpg',
  didyou : 'https://telegra.ph/file/e40219cc8d472025f18b6.jpg',
  rulesBot : 'https://telegra.ph/file/7cd8985216ffd3c376238.jpg',
- thumbnail : 'https://i.postimg.cc/Df5bgqjF/4b294d78a69843b5b1b73e42065c81a7.jpg',
- thumb : 'https://i.postimg.cc/DZTbC5kR/84a4fb44cdbce8679294a254b238dc65.jpg',
- logo : 'https://i.postimg.cc/Df5bgqjF/4b294d78a69843b5b1b73e42065c81a7.jpg',
- unReg : 'https://telegra.ph/file/ef02d1fdd59082d05f08d.jpg',
- registrasi : 'https://i.postimg.cc/Df5bgqjF/4b294d78a69843b5b1b73e42065c81a7.jpg',
+ thumbnail : 'https://api.deline.web.id/0p64MFb9t0.jpg',
+ thumb : 'https://api.deline.web.id/0p64MFb9t0.jpg',
+ logo : 'https://api.deline.web.id/0p64MFb9t0.jpg',
+ unReg : 'https://api.deline.web.id/0p64MFb9t0.jpg',
+ registrasi : 'https://api.deline.web.id/0p64MFb9t0.jpg',
  confess : 'https://telegra.ph/file/bfef7e33bc60dd2608ac6.jpg',
  access : 'https://telegra.ph/file/5c35d4a180b9074a9f11b.jpg',
  tqto : 'https://telegra.ph/file/221aba241e6ededad0fd5.jpg',
